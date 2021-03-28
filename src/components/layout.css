@@ -90,3 +90,9 @@ h1:hover {
     transform: translateY(0px);
   }
 }
+
+.Hero svg{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
