@@ -1,5 +1,6 @@
 import { Link } from "gatsby"
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 
@@ -14,6 +15,14 @@ const IndexPage = () => (
             in laying out print, graphic or web designs.{" "}
           </p>
           <Link to="/page-2/">Watch the video</Link>
+          <div className="Logos">
+            <StaticImage src="../images/logo-sketch.png" alt="a" width="50" />
+            <StaticImage src="../images/logo-figma.png" alt="a" width="50" />
+            <StaticImage src="../images/logo-studio.png" alt="a" width="50" />
+            <StaticImage src="../images/logo-framer.png" alt="a" width="50" />
+            <StaticImage src="../images/logo-react.png" alt="a" width="50" />
+            <StaticImage src="../images/logo-swift.png" alt="a" width="50" />
+          </div>
           <svg
             width="100%"
             height="172"
